@@ -1,7 +1,7 @@
 import http from './http.service';
 
 const API_KEY = '338f9a63';
-const API_URL = `http://www.omdbapi.com`;
+const API_URL = `https://www.omdbapi.com`;
 
 function getItems ({ body }) {
 	if (body.Error) {
