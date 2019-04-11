@@ -15,6 +15,12 @@ export let insertHtmlTo = curry(function insertHtmlTo (element, htmlString) {
 	return htmlString;
 });
 
+export let appendHtmlTo = curry(function appendHtmlTo (element, htmlString) {
+	element.insertAdjacentHTML('beforeend', htmlString);
+	return htmlString;
+});
+
+
 export function preventEvent (event) {
 	event.preventDefault();
 	return event;

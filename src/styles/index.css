@@ -15,6 +15,7 @@ body {
 	/* background: rgb(147, 33, 35); */
 	font-family: 'PT Sans', Calibri, 'Trebuchet MS', Roboto, Arial, Helvetica, sans-serif;
 	line-height: 1.1;
+	overflow: auto;
 }
 
 h3 {
