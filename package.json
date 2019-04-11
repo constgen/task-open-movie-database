@@ -1,0 +1,31 @@
+{
+  "name": "task-open-movie-database",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test task",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "lint": "neutrino lint --fix",
+    "test": "neutrino test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constgen/task-open-movie-database.git"
+  },
+  "keywords": [],
+  "author": "Constantine Genchevsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/constgen/task-open-movie-database/issues"
+  },
+  "homepage": "https://github.com/constgen/task-open-movie-database#readme",
+  "devDependencies": {
+    "neutrino": "8.3.0",
+    "neutrino-preset-umd": "0.3.0",
+    "@atomspace/eslint": "2.4.0",
+    "@atomspace/stylelint": "1.1.1",
+    "@neutrinojs/jest": "8.3.0"
+  }
+}
