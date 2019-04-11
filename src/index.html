@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Movie finder</title>
 	<link rel="stylesheet" href="styles/index.css">
-	<script defer src="../dist/task-open-movie-database.js"></script>
+	<script async src="../dist/task-open-movie-database.js"></script>
 </head>
 <body>
 	<div class="movies-search">
@@ -17,14 +17,7 @@
 			</label>
 			<button type="submit">Search</button>
 		</form>
-		<ul class="search-results">
-			<!-- <li class="movie-item">
-				<a title="Happy Gilmore (1996)" href="tt0116483" class="link">
-					<img src="https://m.media-amazon.com/images/M/MV5BZWI2NjliOTYtZjE1OS00YzAyLWJjYTQtYWNmZTQzMTQzNzVjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" alt="movie Happy Gilmore" class="image">
-					<h3 class="title">Happy Gilmore</h3>
-				</a>
-			</li> -->
-		</ul>
+		<ul class="search-results"></ul>
 		<div class="infinite-loader"></div>
 		<div class="search-error"></div>
 	</div>
